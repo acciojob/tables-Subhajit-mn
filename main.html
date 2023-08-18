@@ -6,14 +6,16 @@
 </head>
 <body>
     <!--    Write your code here -->
-	<div>List of all transcation</div>
-	<div class="table-responsive">
-	<table class="table">
+	<div class="container">
+	<table class="table table-responsive table-hover">
+		<caption>List of all transaction</caption>
 		<thead class="thead-dark">
-			<th scope="col">#</th>
-			<th scope="col">From</th>
-			<th scope="col">To</th>
-			<th scope="col">Amount($)</th>
+			<tr>
+				<th scope="col">#</th>
+				<th scope="col">From</th>
+				<th scope="col">To</th>
+				<th scope="col">Amount($)</th>
+			</tr>
 		</thead>
 		<tbody>
 			<tr>
@@ -38,7 +40,7 @@
 		<tfoot class="tfoot-light">
 			<tr>
 				<td  colspan="3"></td>
-			<td id="total" class="font-monospace" class="text-end" class="fw-bold">Total 4000</td>
+			<td id="total" class="font-monospace text-end fw-bold">Total 4000</td>
 			</tr>
 		</tfoot>
 	</table>
