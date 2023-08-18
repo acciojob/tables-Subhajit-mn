@@ -1,1 +1,12 @@
 
+.thead-dark{
+	background-color: black;
+	color: white;
+}
+.tfoot-light{
+	background-color: lightgray;
+}
+.fw-bold{
+	font-weight: bold;
+	
+}
